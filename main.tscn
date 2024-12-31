@@ -7,7 +7,7 @@
 
 [node name="Main" type="Node"]
 script = ExtResource("1_yqyh0")
-SnakeSegment = ExtResource("4_vl7lm")
+SegmentScene = ExtResource("4_vl7lm")
 
 [node name="HUD" parent="." instance=ExtResource("2_aerv8")]
 
