@@ -7,11 +7,10 @@
 
 [node name="Main" type="Node"]
 script = ExtResource("1_yqyh0")
+SnakeSegment = ExtResource("4_vl7lm")
 
 [node name="HUD" parent="." instance=ExtResource("2_aerv8")]
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(500, 550)
 texture = ExtResource("3_cd7be")
-
-[node name="SnakeSegment" parent="." instance=ExtResource("4_vl7lm")]
